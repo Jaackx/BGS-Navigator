@@ -1,15 +1,53 @@
+<!DOCTYPE html>
 <html>
 
    <head>
-     <link href="css/bootstrap.css" rel="stylesheet">
-	 <link href="js/bootstrap.js" rel="javascript">
-	 <link href="js/jquery.js" rel="javascript">
+     <link href="CSS/bootstrap.css" rel="stylesheet">
+	 <script src="JS/bootstrap.js"></script>
+	 <script src="JS/jquery.js"></script>
+	 <script>
+	 function myFunction
+	 {window.alert("you clicked navigation!");}
+	 </script>
+	 <style>
+	  button.tpmargin{margin-top:50px; margin-right:25px;}
+	  button.rmargin{margin-right:25px;}
+	  button.lmargin{margin-left:25px;}
+	  button.size{width=66px; height=66px;}
+	 </style>
    </head>
   
    <body>
-     <h1 class="text-center">BGS NAVIGATOR </h1>	
+     <h1 class="text-center">BGS NAVIGATOR </h1>
      
-     <button type="button" class="btn btn-default btn-lg"><img src="IMG/bgs_nav_logo2.png" alt="Compass" class="img-rounded"></button>	 
+	 <table align="center">
+      <tr>
+       <th>
+	   <button type="button" class="tpmargin" class="btn btn-default btn-lg""tpmargin" onclick="myFunction()">
+	     <img src="IMG/bgs_nav_logo2.png" alt="Compass" class="img-rounded">
+	   </button>
+	   </th>
+       <th>
+	   <button type="button" class="tpmargin" class="lmargin" class="btn btn-default btn-lg">
+	     <alt="Compass" class="img-rounded">Feature 1
+	   </button>
+	   </th>
+      </tr>
+      <tr>
+       <td>
+	   <button type="button" class="rmargin";"tpmargin" class="btn btn-default btn-lg">
+	     <alt="Compass" class="img-rounded">Feature 2
+	   </button>
+	   </td>
+       <td>
+	   <button type="button" class="lmargin" class="tpmargin" class="btn btn-default btn-lg">
+	     <alt="Compass" class="img-rounded">Feature 3
+	   </button>
+	   </td>
+      </tr>
+     </table>
+     
+     	 
    </body>
 
 </html>
