@@ -8,3 +8,5 @@ Any progress (even if its just a small program) or changes made post the date an
 e.g.
 
 17th November: made a program that lets user input 2 numbers and the larger number is determined - this logic may be used in our shortest route algorithm -j
+
+testing - s
