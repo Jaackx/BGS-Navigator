@@ -1,3 +1,5 @@
 Just do something like this for the diary that we keep in the repository
 
 testing -j
+
+This makes more sense now - h
