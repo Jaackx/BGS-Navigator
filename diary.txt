@@ -3,3 +3,8 @@ Just do something like this for the diary that we keep in the repository
 testing -j
 
 This makes more sense now - h
+
+Any progress (even if its just a small program) or changes made post the date and description of what you did below:
+e.g.
+
+17th November: made a program that lets user input 2 numbers and the larger number is determined - this logic may be used in our shortest route algorithm -j
