@@ -4,8 +4,10 @@
 
    <head>
      <link href="CSS/bootstrap.css" rel="stylesheet">
+	 <link href="CSS/jquery-ui.css" rel="stylesheet">
 	 <script src="JS/bootstrap.js"></script>
 	 <script src="JS/jquery.js"></script>
+	 <script src="JS/jquery-ui.js"></script>
 	 
 	 <style>
 	   button.tpr{margin-top:25px; margin-left:25px; margin-right:25px; margin-bottom:25px;}
@@ -27,19 +29,20 @@
        <th>
 	   <button type="button" class="btn btn-default btn-lg tpr" style="height:62px; width:62px;"> <!-- add multiple classes by adding them with a space -->
 	     
-	     <alt="Compass" class="img-rounded">Feature 1 <!-- This class seems to be getting ignored -->
+	     <alt="Compass" class="img-rounded"> 1 <!-- This class doesnt seem to do anything -->
 	   </button>
 	   </th>
       </tr>
       <tr>
        <td>
-	   <button type="button" class="btn btn-default btn-lg tpr" style="height:62px; width:62px;>
-	     <alt="Compass" class="img-rounded">Feature 2
+	   <button type="button" class="btn btn-default btn-lg tpr" onclick="window.location='calculator.html'"
+	   style="height:62px; width:62px;> <!-- leads to calculator page -->
+	     <alt="Compass" class="img-rounded"> 2
 	   </button>
 	   </td>
        <td>
 	   <button type="button" class="btn btn-default btn-lg tpr" style="height:62px; width:62px;> 
-	     <alt="Compass" class="img-rounded">Feature 3
+	     <alt="Compass" class="img-rounded"> 3
 	   </button>
 	   </td>
       </tr>
