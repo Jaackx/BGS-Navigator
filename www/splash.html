@@ -2,11 +2,22 @@
 
 <head>
 <title> BGS Navigator </title>
+
+<script language="JavaScript">
+
+var time = null
+function move() {
+window.location = 'index.html'
+}
+//-->
+</script>
 </head>
 
 <body>
-
-<img src="IMG/loading_screen.gif" height ="470dp" width ="320dp"
+<center>
+<img src="IMG/loading_screen.gif" height ="470dp" width ="320dp" 
+</center>
+<body onload="timer=setTimeout('move()',6200)">
 </body>
 
 </html>
