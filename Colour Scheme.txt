@@ -1,0 +1,5 @@
+App colour scheme
+Gray: #b4b4b4
+yellow: #e5b000
+light blue: #17a0ee
+dark blue: #054a71

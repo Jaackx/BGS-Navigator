@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<!-- All internal JS should be done at bottom -->
+
+   <head>
+     <link href="CSS/bootstrap.css" rel="stylesheet">
+	 <script src="JS/bootstrap.js"></script>
+	 <script src="JS/jquery.js"></script>
+	 <script src="JS/jquery-ui.js"></script>
+	 
+	 <style>
+	   button.tpr{margin-top:25px; margin-left:25px; margin-right:25px; margin-bottom:25px;}
+	   button.size{width=66px; height=66px;}
+	 </style>
+   </head>
+  
+   <body> 
+   
+     <h1 class="text-center">BGS NAVIGATOR </h1>
+     
+	 <table align="center">
+      <tr>
+       <td>
+	   <button type="button" onClick="myFunction()" class="btn btn-default btn-lg tpr" > <!-- when this buttons size gets defined, image disappears -->
+	     <img src="IMG/navigator_icon.png" alt="Compass" class="img-rounded">
+	   </button>
+	   </td>
+       
+	   <td>
+	     <!-- add multiple classes by adding them with a space -->
+		 <button type="button" class="btn btn-default btn-lg tpr" onclick="window.location='diary.html'" 
+		 style="height:62px; width:62px;"> 
+	     <alt="Compass" class="img-rounded"> D <!-- This class doesnt seem to do anything -->
+	     </button>
+	   </td>
+       <td>
+	   <button type="button" class="btn btn-default btn-lg tpr" onclick="window.location='calculator.html'"
+	   style="height:62px; width:62px;> <!-- leads to calculator page -->
+	     <alt="Compass" class="img-rounded"> C
+	   </button>
+	   </td>
+       </tr>
+	   
+	   <!--
+	   <td>
+	    <button type="button" class="btn btn-default btn-lg tpr" style="height:62px; width:62px;> 
+	     <alt="Compass" class="img-rounded"> 3
+	   </button> 
+	   </td>
+      </tr> -->
+     </table>
+     
+     	 
+   </body>
+
+   <script>
+	 function myFunction()
+	 {window.alert("you clicked navigation!");}
+	 </script>
+	 
+</html>
