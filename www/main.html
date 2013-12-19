@@ -3,58 +3,61 @@
 <!-- All internal JS should be done at bottom -->
 
    <head>
-     <link href="CSS/bootstrap.css" rel="stylesheet">
+     <!-- <link href="CSS/bootstrap.css" rel="stylesheet">
 	 <script src="JS/bootstrap.js"></script>
 	 <script src="JS/jquery.js"></script>
-	 <script src="JS/jquery-ui.js"></script>
+	 <script src="JS/jquery-ui.js"></script> -->
+	
+	<script src="js/jquery-2.0.3.js"></script>
+	<script src="js/jquery.mobile-1.3.2.js"></script>
+	<link rel="stylesheet" href="css/jquery.mobile-1.3.2.css" />
+	<title>BGS NAVIGATOR </title>
+
+
 	 
 	 <style>
-	   button.tpr{margin-top:25px; margin-left:25px; margin-right:25px; margin-bottom:25px;}
-	   button.size{width=66px; height=66px;}
+	   
 	 </style>
    </head>
   
    <body> 
    
-     <h1 class="text-center">BGS NAVIGATOR </h1>
+     
+	 
+	 <div data-role="page" id="home" data-theme="c">
+
+         <div data-role="header">
+
+               <h2>BGS Navigator</h2>
+
+         </div>
      
 	 <table align="center">
       <tr>
-       <td>
-	   <button type="button" onClick="myFunction()" class="btn btn-default btn-lg tpr" > <!-- when this buttons size gets defined, image disappears -->
-	     <img src="IMG/navigator_icon.png" alt="Compass" class="img-rounded">
+       <td colspan="2" align="center" >
+	   
+	   <button type="button" onClick="window.location='navigator.html'" > 
+	     <img src="IMG/navigator_icon.png">
 	   </button>
+	   
 	   </td>
-       
+	  </tr> 
+      <tr> 
 	   <td>
-	     <!-- add multiple classes by adding them with a space -->
-		 <button type="button" class="btn btn-default btn-lg tpr" onclick="window.location='diary.html'"> 
-	     <img src="IMG/calender.jpg" alt="Diary" class="img-rounded"> <!-- This class doesnt seem to do anything -->
+	     <button type="button" onclick="window.location='diary.html'"> 
+	       <img src="IMG/calender.jpg">
 	     </button>
 	   </td>
-      </tr>
-      
-	  <tr>
-       <td>
-	   <button type="button" class="btn btn-default btn-lg tpr" onclick="window.location='calculator.html'"> <!-- leads to calculator page -->
-	     <img src="IMG/calculator.jpg" alt="Calculator" class="img-rounded">
-	   </button>
-	   </td>
-       
+         
 	   <td>
-	   <!-- <button type="button" class="btn btn-default btn-lg tpr" style="height:62px; width:62px;> 
-	     <img src="IMG/points.jpg" alt="Compass" class="img-rounded"> 3
-	   </button> -->
+	     <button type="button" onclick="window.location='calculator.html'">
+	       <img src="IMG/calculator.jpg">
+	     </button>
 	   </td>
       </tr>
      </table>
      
      	 
    </body>
-
-   <script>
-	 function myFunction()
-	 {window.alert("you clicked navigation!");}
-	 </script>
 	 
 </html>
