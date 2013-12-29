@@ -64,7 +64,7 @@
 
                                                                                 <option value="1">Canteen</option>
 
-                                                                                <option value="2">A.H</option>
+                                                                                <option value="2">Assembly Hall</option>
 
                                                                                 <option value="3">L1</option>
 																				  <option value="4">L2</option>
@@ -144,7 +144,7 @@
 
                                                                                 <option value="1">Canteen</option>
 
-                                                                                <option value="2">A.H</option>
+                                                                                <option value="2">Assembly Hall</option>
 
                                                                                 <option value="3">L1</option>
 																				  <option value="4">L2</option>
@@ -233,13 +233,9 @@
 
                  </div>
 
-				 <table align="center">
-				   <tr>
-				     <td>
-                       <button type="button" onclick="window.location='main.html'">HOME</button>
-					 </td>
-                   </tr>
-                 </table>				   
+                 
+
+                 
 
                 </body>
 
@@ -267,14 +263,14 @@ function action()
 
 // window.alert("Starting Action");
 
-var array_BGSrooms = ["Reception","Canteen","A.H","L1","L2","L3","L4","L5","L6","L7","L8","L9","L10","L11","L12","L13","L14","L15","L16","L17","PE","MathsS","AtriumS",
-"ArtS","DramaS","U1","U2","U3","U4","U5","U6","U7","U8","U9","U10","U11","U12","U13","U14","U15","U16","U17","U18","U19","U20","U21","U22","U23","U24",
-"EnglishS","PhyS","BioS","ArtS","U25","U26","U27","U28"];
+var array_BGSrooms = ["Reception","Canteen","Assembly Hall","L1","L2","L3","L4","L5","L6","L7","L8","L9","L10","L11","L12","L13","L14","L15","L16","L17","PE","Maths Stairs","Atrium Stairs",
+"Art Stairs","Drama Stairs","U1","U2","U3","U4","U5","U6","U7","U8","U9","U10","U11","U12","U13","U14","U15","U16","U17","U18","U19","U20","U21","U22","U23","U24",
+"English Stairs","Physic Stairs","Biology Stairs","Art Stairs","U25","U26","U27","U28"];
 
 var array_BGSplan = [
 [0,10,5,5,,,,50,,,,,,,,,50,,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,], /*Reception*/
 [10,0,,,,,,,,,,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,], /*Canteen*/
-[5,,0,,,,,,,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,], /*A.H*/
+[5,,0,,,,,,,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,], /*Assembly Hall*/
 [5,,,0,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,], /*L1*/
 [,,,10,0,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,], /*L2*/
 [,,,,15,0,10,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,], /*L3*/
@@ -326,8 +322,8 @@ var array_BGSplan = [
 [,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,,12,,,,,,,,,,,0,,,,,], /*BioS*/
 [,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,0,,,,], /*ArtS*/
 [,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,0,,10,], /*U25*/
-[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,], /*U26*/
-[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,0,5], /*U27*/
+[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,], /*U26*/
+[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,0,5], /*U27*/
 [,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,0]]; /*U28*/
 
 
@@ -393,9 +389,9 @@ function dijkstra(distances, start, end) {
 
 //window.alert("Starting Dijkstra");
 
-var array_BGSrooms = ["Reception","Canteen","A.H","L1","L2","L3","L4","L5","L6","L7","L8","L9","L10","L11","L12","L13","L14","L15","L16","L17","PE","MathsS","AtriumS",
-"ArtS","DramaS","U1","U2","U3","U4","U5","U6","U7","U8","U9","U10","U11","U12","U13","U14","U15","U16","U17","U18","U19","U20","U21","U22","U23","U24",
-"EnglishS","PhyS","BioS","ArtS","U25","U26","U27","U28"];
+var array_BGSrooms = ["Reception","Canteen","Assembly Hall","L1","L2","L3","L4","L5","L6","L7","L8","L9","L10","L11","L12","L13","L14","L15","L16","L17","PE","Maths Stairs","Atrium Stairs",
+"Art Stairs","Drama Stairs","U1","U2","U3","U4","U5","U6","U7","U8","U9","U10","U11","U12","U13","U14","U15","U16","U17","U18","U19","U20","U21","U22","U23","U24",
+"English Stairs","Physic Stairs","Biology Stairs","Art Stairs","U25","U26","U27","U28"];
 
 
 //insert array here
